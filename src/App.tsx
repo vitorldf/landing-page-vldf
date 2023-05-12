@@ -1,14 +1,12 @@
-import { useState } from 'react'
-
+import { GlobalStyles } from "./styles/globalStyles";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-     <h1>ola</h1>
-    </>
-  )
+    <div className="App">
+      <GlobalStyles />
+      <h1>ola</h1>
+    </div>
+  );
 }
 
-export default App
+export default App;
