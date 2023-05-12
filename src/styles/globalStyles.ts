@@ -1,6 +1,17 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: "Heebo", sans-serif;
+}
+
 :root {
     --space: #0B1E8A;
   --space-ligth: #3D68B2;

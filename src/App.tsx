@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <GlobalStyles />
-      <h1>ola</h1>
+      <h1>Landing</h1>
     </div>
   );
 }
