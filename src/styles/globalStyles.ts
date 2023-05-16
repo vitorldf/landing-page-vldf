@@ -8,11 +8,28 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
 }
 
-body {
-    font-family: "Heebo", sans-serif;
+html {
+
+    @media(max-width: 1440px) {
+    // font-size: 93.75%;
+    }
+    
+    @media(max-width: 375px) {
+    // font-size: 87.5%;
+    }
+    
+
 }
 
-:root {
+body {
+    font-family: "Heebo", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--mars-light);
+  
+}
+
+:root { 
+    
     --space: #0B1E8A;
   --space-ligth: #3D68B2;
   --space-dark: #040327;
